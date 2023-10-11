@@ -135,12 +135,18 @@ table td:nth-child(2n+1) {
 /* CSS Specificity */
 /* formula: inline style, ID, class, tag name*/
 /*              0             0        0             0 */
+/* 0001 */
 footer {
-    background-color: antiquewhite;
+    background-color: aqua;
 }
 /* 0002 */
 body footer {
     background-color: red;
+}
+
+/* 0011 */
+footer.site-footer {
+    background-color: antiquewhite;
 }
 
 

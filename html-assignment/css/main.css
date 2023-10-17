@@ -13,7 +13,9 @@ header, footer {
 }
 
 #my-image {
-    box-shadow: 0 0 2px 1px black
+    box-shadow: 0 0 2px 1px black;
+    width: 400px;
+    height: 400px;
 }
 
 h3+ul {

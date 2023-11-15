@@ -100,6 +100,26 @@ p {
     text-align: center;
     text-decoration: uppercase;
 }
+ /*  *****************Naviagtion****************** */
+.nav-list {
+    border-bottom: 1px solid gray;
+}
+
+/* LoVe and HAte */ 
+.nav-list a,
+.nav-list :link
+.nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+    text-align: center; 
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+    background-color: #00add8;
+}
+
 
 
 /* ************* Mobile App Section **********/
@@ -109,7 +129,7 @@ p {
     display: inline block;
     padding: 20px;
     border: 1px solid gray;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 .btn.hover,
 .btn:focus {
@@ -117,7 +137,21 @@ p {
     color: inherit;
 }
 
-/* ********* Fotter***** */
+/* ********* Action section styles ***** */
+
+.action-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.action-list {
+    max-width: 50%;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* ********* Fotter styles ***** */
 .site-footer {
     margin-top: 20px;
     padding: 20px;
@@ -151,6 +185,19 @@ p {
     .banner h1 {
         color: white;
     }
+ /* **************** Navigation ************ */
+    .nav-list {
+        display: flex;
+    }
+    .nav-list li {
+        flex: 1;
+        border: none;
+        border-right: 1em;
+    }
+
+    .nav-list li:last-child {
+        border: none;
+    }
 
     /* **************** App Section ************ */
     .app img {
@@ -158,8 +205,17 @@ p {
         float: left;
         margin-right: 1em;
     }
+
     .app {
         float: right;
     }
-
 } 
+/*  */
+/* Media Query 800px  */
+/*  */
+
+@media screen and (min-width: 800px) {
+    .action-list li { 
+    max-width: 20%;
+ }
+}

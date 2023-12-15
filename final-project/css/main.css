@@ -29,22 +29,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* This is the maximum width of the container */
+/* This is the max width of the container */
 .container{
     max-width: 1200px;
 }
 
-/* This wrapper makes all the wrapped contenet center */
+/* This wrapper makes the contenet center */
 .wrapper {
     max-width:90%;
     margin: 0 auto;
 }
-/* style the font weight of the wrapper's heading */
+/* style the font weight of the headings */
 .wrapper h1, h2, h3, h4 {
      font-weight: bolder;  
 }
 
-/* style the hader color */
+/* style the header color */
 header {
     background-color:  #222;
     border: 12px solid  #222;   
@@ -57,24 +57,24 @@ header {
 }
 
 
-/* This line code style the home active bar only */
+/* This line code style the home bar only */
 nav ul li .active{
     color: #222;
     background-color: #c78c06;
     max-width: 100%;
     padding: 10px;
 }
-/* These lines of code style the navigation bar */  
+/* These lines of code style the navigation bar of the website */  
 .home ,nav ul {
      list-style: none;
      padding-left: 0;
      text-align: center;      
 } 
-/* This style change the color of the home navigation bar */
+/* This style change the color of the home nav bar */
 .home a {
       color:  #222;
 }
-/* These style change the color of the navigation bar except the home nav */
+/* These style change the color of the nav bar */
  nav ul li a {
       color:#c78c06;
 }
@@ -97,7 +97,7 @@ nav form {
     padding: 5px;
     
 }
-/* this line of style all  the image width 100% */
+/* this line of style the image width 100% */
 .img-banner ,.img-about {
     width: 100%;
 }
@@ -108,7 +108,7 @@ nav form {
     position: relative;
 }
 
-/* these styles make overlay text on the heading banner image */
+/* these styles makes overlay text on the banner image */
 .banner-text-overlay{ 
     position:absolute;
     top: 100px;
@@ -138,7 +138,7 @@ nav form {
     font-size: 20px;      
 }
 
-/* These are the style for buttons and change the buttunes color, width and hteir padding*/
+/* These are the style for buttons and change the buttons color, width and thier padding*/
 .btn-1 {
     max-width: 40px;
     padding: 5px;
@@ -192,7 +192,7 @@ nav form {
 }
 
 
-/* styling about us image width and divs contents style all contents inside it*/
+/* styling about us image width and divs contents style all contents inside the div */
 .about-us {
     width: auto;
     background-color:#ffe6ac;
@@ -211,7 +211,7 @@ nav form {
 .about-us p {
     padding: 0 20px 20px 0;
 }
-/* Change the a tag inside service class and h2 font size*/
+/* Change the a tag inside service class and header 2*/
 .services a { 
     color: rgb(255, 255, 255);
     text-decoration: none;    
@@ -221,7 +221,7 @@ nav form {
     padding: 20px 0px 20px ;
 }
 
-/* This style set the width of digitals class image 100% style all contents inside it*/
+/* This style set the width of digitals class image 100% */
 .img-digital{
     width: 100%;
 }
@@ -243,7 +243,6 @@ nav form {
     font-size: 16px;
 }
 
-/* This style set the width of market class image 100% style all contents inside it */
 .img-market{
     width: 100%;
 
@@ -265,7 +264,7 @@ nav form {
     font-size: 16px;
 }
 
-/* This style set the width of video class image 100% style all contents inside it */
+/* This style set the width of video class image 100% */
 .img-video{
     width: 100%;
 
@@ -287,7 +286,7 @@ nav form {
     font-size: 16px;
 }
 
-/* This style set the width of web class image 100% style all contents inside it */
+/* This style set the width of web class image 100% */
 .img-web{
     width: 100%;
 }
@@ -308,7 +307,7 @@ nav form {
     font-size: 16px;
 }
 
-/* This style set the width of print class image 100% and style all contents inside it */
+/* This style set the width of print class image 100% and style all contents inside */
 .img-print{
     width: 100%;
 }
@@ -329,7 +328,7 @@ nav form {
     font-size: 16px;
 }
 
-/* vision section style  */
+/**************** vision section style ********************* */
 .img-vision {
     width: 100%;
 
@@ -359,7 +358,7 @@ nav form {
 }
 
 
-/* teams section style */
+/************ teams section style ******************/
 .team-section{
     background-color: #ffe6ac;  
    
@@ -382,7 +381,7 @@ nav form {
     padding: 20px 10px 20px;
     font-size: 16px;
 }
-/* this style for horizontal line for teams-section */
+/* this style for horizontal line for teams part */
 .line{ 
     border-bottom: 3px solid #c46a16;
     padding: 2px 20px 0px;
@@ -390,7 +389,7 @@ nav form {
     border-radius: 2px;
 }
 
-/* contact and information class style */
+/*********** contact and information class style *************/
 .info-box h2 {
     font-size: 2rem;
     padding: 20px 0 20px 0px; 
@@ -445,7 +444,7 @@ nav form {
     cursor: pointer;
 }
 
-/* These lines of code style two colomuns and threee rows with data */
+/* These lines of code style two colomuns and threee rows */
 .hours-table h2 {
     font-size: 2rem;
     padding: 20px 0 20px 0px; 
@@ -469,14 +468,14 @@ table td {
     border: 0.5px solid black;  
 }
 
-/* This line code style the width and border of location section*/
+/* This line code style the width and location section*/
 iframe{
     width: 100%;
     border: none;
     
 }
 
-/* footer style */
+/******************** footer style************/
 footer{
  
     background-color: #222;
@@ -490,9 +489,9 @@ footer a {
 footer p {
     line-height: 30px;
 }
-/* This is for media screen 760px and above */
+/* This is for media screen 760px and above part */
 @media screen and (min-width: 760px){
-    /* This change the font family in to opens sans for webpage */
+    /* This change the font family in to opens sans for the webpage */
       body {
       font-family: 'Open Sans', sans-serif;
       
@@ -508,7 +507,7 @@ footer p {
          border: none;      
      }
 
-     /* This line of code change the size of the header banner image size into cover */
+     /* This line of code change the size of the header banner */
      .img-banner{
         width: 100%;
         max-height: 600px;
@@ -526,7 +525,7 @@ footer p {
          top: 0;
          left: 20px;
      }
-     /* style the  home navigation bar  */
+     /* Styling the  home navigation bar  */
      nav {
          display: flex;
          align-items: center;
@@ -550,7 +549,7 @@ footer p {
          cursor: pointer;
      }
 
-      /* This line of code change the size of the header banner image size into cover */
+      /* This change the size of the header banner image size into cover */
      .img-vision{
          width: 100%;
          max-height: 400px;
@@ -590,13 +589,13 @@ footer p {
          font-weight: bolder;  
      }
 
-     /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
+    
      .row-1 {
          display: grid;
          grid-gap: 10px;
          grid-template-columns: repeat(2,1fr);            
      }
- /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
+
      .row-2 {
          display: grid;
          grid-gap: 10px;
@@ -604,7 +603,7 @@ footer p {
 
      }
 
-     /* These line of code make the teams section order position 50% of the place and wrape the content left and writ with the image */
+    
      .teams{
          display: flex;
          flex-wrap: wrap;
@@ -629,7 +628,7 @@ footer p {
          order: 2;
      }
   
-   /* These style rearragne the order of the child divs inside order class */
+   /* This style rearragne the order of the child divs inside order class */
      .order {
          display: flex;
          flex-wrap: wrap;
@@ -663,7 +662,7 @@ footer p {
      }
 
  }       @media screen and (min-width: 760px){
-    /* This change the font family in to opens sans for webpage */
+    /* This change the font family in to opens sans for the webpage */
       body {
       font-family: 'Open Sans', sans-serif;
       
@@ -679,7 +678,7 @@ footer p {
          border: none;      
      }
 
-     /* This line of code change the size of the header banner image size into cover */
+     /* This line of code change the size of the header banner */
      .img-banner{
         width: 100%;
         max-height: 600px;
@@ -697,7 +696,7 @@ footer p {
          top: 0;
          left: 20px;
      }
-     /* style the  home navigation bar  */
+     /* styling the home navigation bar  */
      nav {
          display: flex;
          align-items: center;
@@ -721,7 +720,7 @@ footer p {
          cursor: pointer;
      }
 
-      /* This line of code change the size of the header banner image size into cover */
+      /* These lines of code change the size of the header banner image*/
      .img-vision{
          width: 100%;
          max-height: 400px;
@@ -756,18 +755,18 @@ footer p {
      .services {
          margin-bottom: 10px;
      }
-     /* style the font weight of the wrapper's heading */
+     /* Stylinh the font weight of the wrapper's heading */
      .wrapper h1, h2, h3, h4 {
          font-weight: bolder;  
      }
 
-     /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
+     
      .row-1 {
          display: grid;
          grid-gap: 10px;
          grid-template-columns: repeat(2,1fr);            
      }
-     /* Inside the row-1 class there are two div classes and these line code arrange the two div classes in two cloumn and one row */
+     
      .row-2 {
          display: grid;
          grid-gap: 10px;
@@ -775,7 +774,6 @@ footer p {
 
      }
 
-     /* These line of code make the teams section order position 50% of the place and wrape the content left and writ with the image */
      .teams{
          display: flex;
          flex-wrap: wrap;
@@ -800,7 +798,7 @@ footer p {
          order: 2;
      }
   
-     /* These style rearragne the order of the child divs inside order class */
+     /* These style rearragne the order of the child divs inside it */
      .order {
          display: flex;
          flex-wrap: wrap;
@@ -821,7 +819,7 @@ footer p {
          padding: 5px;
          margin: 10px 0px 10px 0px;
      }
-     /* Style button-5 full widith for screen size 760px and above */
+     /* Style btn-5 full widith for screen size 760px and above */
      .btn-3{
          background-color: #222;
          text-align: center;
